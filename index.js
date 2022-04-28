@@ -141,4 +141,4 @@ document.addEventListener('keypress',function(){
 document.getElementById('btnn').addEventListener('click',function(){
     statusGame = true;
     gameStart(statusGame);
-})
+},{once:true})
